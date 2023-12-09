@@ -7,7 +7,7 @@ This project is a Java-based application designed to simulate a café ordering s
 + Interactive user interface
 # Instructions for the Program
 1. Starting the Program:
-+ Locate the 'UserInterface.java' file and run it.
+   + Locate the 'UserInterface.java' file and run it.
 3. Choose one of the options on the main menu.
 4. In this program, '0' is a back button. Input '0' will go back to main menu in any stages except 'y/n' scenarios.
 5. Input '0' at 'Add topping(y/n)' will go back to Topping menu.
