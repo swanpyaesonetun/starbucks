@@ -5,3 +5,5 @@ This project is a Java-based application designed to simulate a café ordering s
 + Order processing
 + Support for various menu items (Coffee, Dessert, Drink, Topping)
 + Interactive user interface
+# Running the Program
+1. Locate the 'UserInterface.java' file and run it.
