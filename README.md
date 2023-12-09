@@ -8,15 +8,21 @@ This project is a Java-based application designed to simulate a café ordering s
 # Instructions for the Program
 1. Starting the Program:
    + Locate the 'UserInterface.java' file and run it.
-3. Choose one of the options on the main menu.
-4. In this program, '0' is a back button. Input '0' will go back to main menu in any stages except 'y/n' scenarios.
-5. Input '0' at 'Add topping(y/n)' will go back to Topping menu.
-6. Both coffee and drinks have two types: cold and hot. Choosing a cold drink will have an extra prompt for ice level.
-7. Coffees have coffee shots. 6 shots is the maximum for a coffee.
-8. Drinks have sweetness level. Choosing a drink will prompt sweetness level while coffee will prompt coffee shots.
-9. Maximum 5 Toppings can be added to a drink or a coffee.
-10. There are 3 types of Toppings: for drinks, coffees and both. Drink toppings are not available for coffee. Coffeee toppings are not available for drinks. Toppings for both will be available for both.
-11. After all the prompts for an order, you will be prompted to add the current order to cart or not.
-12. If the cart is not empty, you will have options cart and checkout on the main menu.
-13. Cart will allow you to remove any order from the cart.
-14. Checkout will take you to payment processment.
+2. Navigating the Main Menu:
+   + Upon starting, select an option from the main menu to begin your order.
+3. Back Navigation
+   + Use the '0' key as a universal 'back' button. This will return you to the main menu at any stage, except during 'yes/no' (y/n) decision prompts.
+4. Adding Toppings
+   + When prompted for 'Add topping (y/n)', entering '0' will take you back to the Topping menu.
+   + You can add up to 5 toppings to your drink or coffee. Each topping falls into one of three categories: specific to drinks, specific to coffees, or available for both. Note that drink-specific toppings cannot be added to coffee and vice versa.
+5. Ordering Coffee and Drinks:
+   + Choose between cold and hot for both coffee and drinks.
+   + For cold drinks, you'll be prompted to select an ice level.
+   + Coffees include an option for adding up to 6 coffee shots.
+   + For drinks, you will choose a sweetness level.
+6. Completing Your Order:
+   + After selecting your preferences, you'll have the option to add the item to your cart.
+7. Managing Your Cart:
+   + If your cart isn't empty, you'll see 'Cart' and 'Checkout' options in the main menu.
+   + In the 'Cart', you can review your order and remove items if needed.
+   + 'Checkout' leads to the payment process.
